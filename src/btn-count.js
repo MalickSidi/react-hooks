@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function btnCount (initCount = 0) {
+export default function BtnCount ({initCount}) {
     const [count, setCount] = useState(initCount);
 
     return (
@@ -12,3 +12,4 @@ export default function btnCount (initCount = 0) {
         </>
     )
 }
+

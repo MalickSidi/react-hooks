@@ -1,11 +1,11 @@
 import React from 'react';
-import btnCount from './btn-count.js'
+import BtnCount from './btn-count.js'
 
 function App() {
   return (
     <div className="App">
       <h1>Hooks</h1>
-      <btnCount />
+      <BtnCount initCount={0}/>
     </div>
   );
 }
